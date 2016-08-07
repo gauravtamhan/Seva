@@ -5,7 +5,7 @@ $(document).ready(function() {
 	initialAdjustments();
 
 	function initialAdjustments() {
-		$("div#body").css({"margin-top": height - 80 + "px"}); // adjusts the white box's margin to be below the window's height
+		$("div#body").css({"margin-top": height - 60 + "px"}); // adjusts the white box's margin to be below the window's height
 	}
 
 
