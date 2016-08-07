@@ -8,7 +8,7 @@ $(document).ready(function() {
 		$("div#body").css({"margin-top": height - 60 + "px"}); // adjusts the white box's margin to be below the window's height
 	}
 
-	document.getElementsByTagName('BODY')[0].onresize = function() {adjustment()};
+	document.getElementsByTagName('BODY')[0].onresize = function() {adjustment()}; // does the same thing above but on resize using the adjustment function
 
 	function adjustment() {
 		var window_height = $(window).height();
