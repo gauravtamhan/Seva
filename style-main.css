@@ -20,17 +20,17 @@
 	/*overflow: hidden;*/
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 500px) {
 	.container-fluid {
 		background-image: url(SevaDeals.jpg);
 	}
 }
 
-@media (min-width: 760px) {
+/*@media (min-width: 760px) {
 	.container-fluid {
 		background-image: url(website_bg_words.jpg);
 	}
-}
+}*/
 
 .disable_text_highlighting {
 	-webkit-touch-callout: none;
