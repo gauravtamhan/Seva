@@ -17,7 +17,19 @@
 	background-size: cover;
 	background-position: center 0px;
 	background-repeat: no-repeat;
-	overflow: hidden;
+	/*overflow: hidden;*/
+}
+
+@media screen and (max-width: 750px) {
+	.container-fluid {
+		background-image: url(SevaDeals.jpg);
+	}
+}
+
+@media (min-width: 760px) {
+	.container-fluid {
+		background-image: url(website_bg_words.jpg);
+	}
 }
 
 .disable_text_highlighting {
