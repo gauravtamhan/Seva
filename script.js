@@ -19,13 +19,28 @@ $(document).ready(function() {
 		var scrollTop = $(this).scrollTop();
 		var pixels = scrollTop / 70;
 
-		if (scrollTop < height) {
-			$("div.container-fluid").css({
-				"-webkit-filter": "blur(" + pixels + "px)",
-				"background-position": "center -" + pixels * 10 + "px"
-			});
-		}
+		// if (scrollTop < height) {
+		// 	$("div.blur-container").css({
+		// 		"-webkit-filter": "blur(" + pixels + "px)",
+		// 		"background-position": "center -" + pixels * 10 + "px"
+		// 	});
+		// }
 
+	});
+
+	$("#about").click(function() {
+		$("html, body").animate({
+			scrollTop: $("#area1").offset().top}, "slow");
+	});
+
+	$("#download").click(function() {
+		$("html, body").animate({
+			scrollTop: $("#area2").offset().top}, "slow");
+	});
+
+	$("#contact").click(function() {
+		$("html, body").animate({
+			scrollTop: $("#area3").offset().top}, "slow");
 	});
 
 });

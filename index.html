@@ -10,6 +10,9 @@
 
     <link rel="stylesheet" href="style-main.css">
 
+    <!-- Android icon-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <!-- Bootstrap -->
 
     <!-- Latest compiled and minified CSS -->
@@ -25,23 +28,61 @@
 
     <script src="script.js"></script>
 
-   
+    <!-- favicon -->
+    <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/>
+
   </head>
   <body>
-    <div class="container-fluid disable_text_highlighting">
+    <div class="container-fluid disable_text_highlighting blur-container">
     </div>
 
    <div id="body" class="disable_text_highlighting">
     <div id="scrolldown">
 
-      <p id="arrow-label"> <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></p>
+      <p id="arrow-label"> <span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span></p>
      <!--  <p id="less-than"> <</p> -->
     </div>
 
-    <div id='area1'>
+    <div id='area1' class="container-fluid"><!-- <a name="about"></a> -->
+      <div class="col-md-8 col-md-offset-2">
+        <h1 id="area1-head">Amazing Deals For Incredible Places</h1>
+        <p id="area1-text" class="lead"> Seva Deals is an Atlanta nonprofit that connects hundreds of subscribers to restaurants in their area via promotional discounts. We provide restaurants with a platform to market their offerings to a targeted audience of foodies who are always looking to eat somewhere new. </p>
+      </div>
     </div>
 
-    <div id='area2'>
+    <div id='area2' class="container-fluid"><!-- <a name="download"></a> -->
+      <div class="col-md-8 col-md-offset-2">
+        <img src="SevaDeals_AppIcon.png" id="appIcon" class="img-responsive center-block">
+        <p id="area2-text" class="lead text-center"> Mobile app coming soon! </p>
+        <p id="area2-text-platforms" class="lead text-center"> <span style="font-size:25px"> </span> iOS | <i class="material-icons">android</i> Android </p>
+      </div>
+    </div>
+
+    <div id='area3' class="container-fluid"><!-- <a name="contact"></a> -->
+      <p class="area3-text-top lead text-center"> Have a few questions? </p>
+      <p id="area3-text" class="lead text-center"> Give us a call or drop us a line. </p>
+      <p id="area3-text" class="lead text-center"> We'll gladly get back to you. </p>
+      <!-- <div class="col-md-8 col-md-offset-2">
+        <h1 id="area1-head">A Change For The Better...<h1>
+        <p id="area3-text" class="lead text-center">Our team is extremely passionate about creating a positive impact on the world so we donate <u>100% of our profits</u> to charitable causes that we care about.</p>
+        <p id="area3-text" class="lead text-center">Contact us if you are interested in bringing new customers to your restaurants in efforts to raise money for charitable causes.</p>
+      </div> -->
+      <!-- <hr> -->
+      <p id="area3-info" class="lead text-center"><span class="glyphicon glyphicon-earphone" aria-hidden="true"> </span> : 678-884-SEVA 
+      <span style="margin-left:20px" class="glyphicon glyphicon-envelope" aria-hidden="true"> </span> : sevadeals@gmail.com </p>   
+      
+
+      <hr>
+      <div class="footer-copyright container-fluid">
+        <p id="footer"> Copyright © 2016 Seva Deals. All rights reserved. </p>
+      </div>
+      <!-- <p id="footer-links"> Home | About | Download | Contact </p> -->
+      <div class="footer-links">
+        <a class="footer-link" href="index.html"> Home </a>
+        <a id="about" class="footer-link" href="##" onclick="return false;"> About </a>
+        <a id="download" class="footer-link" href="###" onclick="return false;"> Download </a>
+        <a id="contact" class="footer-link" href="###" onclick="return false;"> Contact </a>
+      </div>
     </div>
 
    </div>
