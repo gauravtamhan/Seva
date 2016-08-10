@@ -21,17 +21,29 @@
 	/*overflow: hidden;*/
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 540px) { /*was 500*/
 	.blur-container {
 		background-image: url(SevaDeals.jpg);
 	}
 }
 
-/*@media (min-width: 760px) {
-	.container-fluid {
+@media screen and (min-width: 541px) {
+	.blur-container {
 		background-image: url(website_bg_words.jpg);
 	}
-}*/
+}
+
+@media screen and (min-width: 768px) { 
+	.blur-container {
+		background-image: url(SevaDeals.jpg);
+	}
+}
+
+@media screen and (min-width: 960px) {
+	.blur-container {
+		background-image: url(website_bg_words.jpg);
+	}
+}
 
 .disable_text_highlighting {
 	-webkit-touch-callout: none;
@@ -109,7 +121,7 @@ h1#area1-head {
 }*/
 
 p#area1-text {
-	/*padding: 2px;*/
+	/*overflow: scroll;*/
 }
 
 #appIcon {
@@ -144,7 +156,6 @@ p#area3-text {
 	margin: 0px;
 }
 
-
 p.area3-text-top {
 	color: #444;
 	font-family: "PT Sans";
@@ -164,13 +175,8 @@ p#area3-info {
 	margin-bottom: 6%;
 }
 
-a[href^=tel] {
-	color: inherit;
-	text-decoration: none;
-	font-size: inherit;
-	font-family: inherit;
-	font-weight: inherit;
-}
+
+
 
 p#footer {
 	color: #777;
