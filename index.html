@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     
+    <meta name="format-detection" content="telephone=no">
+    <!-- This is so the telephone number doesn't become a link on iOS -->
+
     <title>Seva Deals</title>
 
     <link rel="stylesheet" href="style-main.css">
@@ -54,7 +57,8 @@
       <div class="col-md-8 col-md-offset-2">
         <img src="SevaDeals_AppIcon.png" id="appIcon" class="img-responsive center-block">
         <p id="area2-text" class="lead text-center"> Mobile app coming soon! </p>
-        <p id="area2-text-platforms" class="lead text-center"> <span style="font-size:25px"> </span> iOS | <i class="material-icons">android</i> Android </p>
+        <!-- <p id="area2-text-platforms" class="lead text-center"> <span style="font-size:25px"> </span> iOS | <i class="material-icons">android</i> Android </p> -->
+        <p id="area2-text-platforms" class="lead text-center"> <span style="font-size:25px"><img id="apple_icon" src="apple_icon.png"></span> iOS | <i class="material-icons">android</i> Android </p>
       </div>
     </div>
 
@@ -73,7 +77,7 @@
       </div>
       <!-- <p id="footer-links"> Home | About | Download | Contact </p> -->
       <div class="footer-links">
-        <a class="footer-link" href="https://seva-deals.firebaseapp.com"> Home </a>
+        <a class="footer-link" href="https://www.sevadeals.org"> Home </a>
         <a id="about" class="footer-link" href="##" onclick="return false;"> About </a>
         <a id="download" class="footer-link" href="###" onclick="return false;"> Download </a>
         <a id="contact" class="footer-link" href="####" onclick="return false;"> Contact </a>

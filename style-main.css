@@ -175,7 +175,10 @@ p#area3-info {
 	margin-bottom: 6%;
 }
 
-
+img#apple_icon	{
+	width: 26px;
+	padding-bottom: 11px;
+}
 
 
 p#footer {
